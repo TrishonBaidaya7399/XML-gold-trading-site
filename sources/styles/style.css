@@ -73,3 +73,33 @@
     background: orange;
     color: white;
 }
+.facebook-logo{
+    background: transparent;
+}
+.facebook-logo:hover{
+    background: rgb(0, 0, 125);
+    transition: 0.3s;
+}
+.facebook-logo i.fa-facebook-f{
+    color: rgb(0, 0, 125);
+    transition: 0.3s;
+}
+.facebook-logo:hover i.fa-facebook-f{
+    transition: 0.3s;
+ color: white;
+}
+.twitter-logo{
+    background: transparent;
+}
+.twitter-logo:hover{
+    background: rgb(35, 171, 225);
+    transition: 0.3s;
+}
+.twitter-logo i.fa-twitter{
+    color: rgb(35, 171, 225);
+    transition: 0.3s;
+}
+.twitter-logo:hover i.fa-twitter{
+    transition: 0.3s;
+ color: white;
+}
