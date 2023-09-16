@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"
+data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./sources/images/title logo.png" type="image/x-icon">
+    <title>Perfect Money Exchange to BitCoin</title>
+    <!-- DaisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Style sheet link -->
+    <link rel="stylesheet" href="./sources/styles/style.css">
+    <!-- Link js -->
+    <script src="./sources/js/index.js"></script>
+</head>
+<body class="bg-gray-100 h-[100vh]"> 
+    <header class="mx-[100px] pt-[30px]">
+        <nav class="flex justify-between items-center">
+            <div class="flex gap-4 items-center">
+                <div class="logo flex ">
+                    <img class="h-14" src="./sources/images/logo.png" alt="">
+                </div>
+                <div>
+                    <details class="dropdown border-2 border-gray-400 rounded-lg px-[5px] text-[14px]">
+                    <summary class="language-select m-1 flex gap-2 px-3 py-2 flex items-center">
+                        <img class="rounded-full h-[18px] w-[18px]" src="./sources/images/flags/english-flag.png"/> English<i class="fa-solid fa-chevron-down text-gray-500"></i>
+                    </summary>
+                    <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 w-[150px] rounded-box">
+                      <li class="flex flex-row items-center border-l-2 mb-1"><i class="fa-solid fa-caret-right   "></i><img class="list-img " src="./sources/images/flags/english-flag.png"/><pre>English</pre></li>
+                      <li class="flex flex-row items-center border-l-2 mb-1"><i class="fa-solid fa-caret-right   "></i><img class="list-img " src="./sources/images/flags/english-flag.png"/><pre>English</pre></li>
+                      <li class="flex flex-row items-center border-l-2 mb-1"><i class="fa-solid fa-caret-right   "></i><img class="list-img " src="./sources/images/flags/english-flag.png"/><pre>English</pre></li>
+                      <li class="flex flex-row items-center border-l-2 mb-1"><i class="fa-solid fa-caret-right   "></i><img class="list-img " src="./sources/images/flags/english-flag.png"/><pre>English</pre></li>
+                      <li class="flex flex-row items-center border-l-2 mb-1"><i class="fa-solid fa-caret-right   "></i><img class="list-img " src="./sources/images/flags/english-flag.png"/><pre>English</pre></li>
+                      <li class="flex flex-row items-center border-l-2 mb-1"><i class="fa-solid fa-caret-right   "></i><img class="list-img " src="./sources/images/flags/english-flag.png"/><pre>English</pre></li>
+                    </ul>
+                  </details>
+                </div>
+            </div>
+            <div class="flex gap-2">
+                <div class="twitter-logo border-2 rounded-full border-gray-300 text-center ">
+                    <i class="fa-brands fa-twitter text-blue-500 text-[20px] p-3"></i>
+                </div>
+                <div class="facebook-logo  border-2 rounded-full border-gray-300 text-center ">
+                    <i class="fa-brands fa-facebook-f text-blue-800 text-[20px] py-3 px-4"></i>
+                </div>
+                <div>
+                    <button class="signIn">Sign In</button>
+                </div>
+                <div>
+                    <button class="register">Register</button>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+    <main class="mx-[100px] pt-[30px]">
+        <div class="categories-container rounded-lg bg-white h-[60px] flex items-center justify-center gap-12 pb-[25px] pt-[5px] ">
+            <button class="category flex flex-col items-center active" onclick="toggleActive(this)">
+            <a href="#">
+                <i class="fa-solid fa-caret-down text-orange-400 text-[14px] text-white"></i>
+                <p class="text-[14px] text-gray-500">EXCHANGE</p>
+            </a>
+            </button>
+            <button class="category flex flex-col items-center" onclick="toggleActive(this)">
+            <a href="#">
+                <i class="fa-solid fa-caret-down text-orange-400 text-[14px] text-white"></i>
+                <p class="text-[14px] text-gray-500">NEWS</p>
+            </a>
+            </button>
+            <button class="category flex flex-col items-center" onclick="toggleActive(this)">
+            <a href="#">
+                <i class="fa-solid fa-caret-down text-orange-400 text-[14px] text-white"></i>
+                <p class="text-[14px] text-gray-500">HELP</p>
+            </a>
+            </button>
+            <button class="category flex flex-col items-center" onclick="toggleActive(this)">
+            <a href="#">
+                <i class="fa-solid fa-caret-down text-orange-400 text-[14px] text-white"></i>
+                <p class="text-[14px] text-gray-500">REFERRAL PROGRAM</p>
+            </a>
+            </button>
+        </div>
+    </main>
+    <footer>
+    </footer>
+
+    <script>
+       
+    </script>
+    
+    
+</body>
+</html>

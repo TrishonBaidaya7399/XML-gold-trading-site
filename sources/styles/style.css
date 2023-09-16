@@ -1,0 +1,75 @@
+.list-img{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    padding:0; 
+}
+.fa-caret-right{
+    padding-left: 0;
+    padding-right: 10px;
+}
+.menu li{
+    border-left:2px solid white;
+}
+.menu li:hover{
+    border-left:2px solid orange;
+    background: white;
+    color: orange;
+}
+.menu li i.fa-caret-right {
+    color: white; 
+    padding-right: 0;
+    margin-right: 10px;
+}
+.menu li:hover i.fa-caret-right {
+    color: orange;
+}
+.fa-caret-down{
+    padding-bottom: 0;
+}
+.category i.fa-caret-down{
+    color: white;
+}
+.category:hover i.fa-caret-down{
+    color: orange;
+}
+.category p{
+    color: gray;
+}
+.category:hover p{
+    color: orange;
+}
+.category:active i.fa-caret-down,
+.category:active p {
+    color: orange;
+}
+.register{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font:16px;
+    border: 2px solid orange;
+    background: orange; 
+    border-radius: 10px;
+}
+.register:hover{
+    background: transparent;
+    color: gray;
+}
+.signIn{
+    background: transparent;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: gray; 
+    font: 16px; 
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.signIn:hover{
+    background: orange;
+    color: white;
+}
